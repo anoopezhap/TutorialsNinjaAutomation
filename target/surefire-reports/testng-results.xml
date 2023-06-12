@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-12T18:52:29 EDT" name="Parallel Test Suite" finished-at="2023-06-12T18:53:25 EDT" duration-ms="55386">
+    <groups>
+    </groups>
+    <test started-at="2023-06-12T18:52:29 EDT" name="C:/Users/anoop/IdeaProjects/QAGURU/TutorialsNinjaProject" finished-at="2023-06-12T18:53:25 EDT" duration-ms="55386">
+      <class name="com.tutorialsninja.testcases.SearchTests">
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.SearchTests@595b007d]" started-at="2023-06-12T18:53:15 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:53:19 EDT" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="searchWithValidProduct()[pri:1, instance:com.tutorialsninja.testcases.SearchTests@595b007d]" started-at="2023-06-12T18:53:19 EDT" name="searchWithValidProduct" finished-at="2023-06-12T18:53:20 EDT" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.SearchTests@595b007d]" started-at="2023-06-12T18:53:20 EDT" name="teardown" finished-at="2023-06-12T18:53:20 EDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.SearchTests@595b007d]" started-at="2023-06-12T18:53:20 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:53:24 EDT" duration-ms="4258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.testcases.SearchTests@595b007d]" started-at="2023-06-12T18:53:24 EDT" name="searchWithInvalidProduct" finished-at="2023-06-12T18:53:24 EDT" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.SearchTests@595b007d]" started-at="2023-06-12T18:53:24 EDT" name="teardown" finished-at="2023-06-12T18:53:25 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.testcases.SearchTests -->
+      <class name="com.tutorialsninja.testcases.LoginTests">
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:45 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:52:48 EDT" duration-ms="3721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="verifyloginWithValidCredentials([Ljava.lang.String;)[pri:1, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:48 EDT" name="verifyloginWithValidCredentials" data-provider="Valid LogIn Data" finished-at="2023-06-12T18:52:50 EDT" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6af5b246]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:50 EDT" name="teardown" finished-at="2023-06-12T18:52:50 EDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:50 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:52:54 EDT" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="verifyloginWithValidCredentials([Ljava.lang.String;)[pri:1, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:54 EDT" name="verifyloginWithValidCredentials" data-provider="Valid LogIn Data" finished-at="2023-06-12T18:52:55 EDT" duration-ms="1219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@11ede87f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:55 EDT" name="teardown" finished-at="2023-06-12T18:52:55 EDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:55 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:52:59 EDT" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="verifyloginWithInvalidCredentials()[pri:2, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:52:59 EDT" name="verifyloginWithInvalidCredentials" finished-at="2023-06-12T18:53:00 EDT" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:00 EDT" name="teardown" finished-at="2023-06-12T18:53:00 EDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:00 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:53:04 EDT" duration-ms="4180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="verifyloginWithInvalidEmailAndValidPassword()[pri:3, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:04 EDT" name="verifyloginWithInvalidEmailAndValidPassword" finished-at="2023-06-12T18:53:05 EDT" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:05 EDT" name="teardown" finished-at="2023-06-12T18:53:05 EDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:05 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:53:09 EDT" duration-ms="3691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="verifyloginWithValidEmailAndInvalidPassword()[pri:4, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:09 EDT" name="verifyloginWithValidEmailAndInvalidPassword" finished-at="2023-06-12T18:53:10 EDT" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:10 EDT" name="teardown" finished-at="2023-06-12T18:53:10 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:10 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:53:14 EDT" duration-ms="4098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:14 EDT" name="verifyLoginWithoutProvidingCredentials" finished-at="2023-06-12T18:53:15 EDT" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.LoginTests@5158b42f]" started-at="2023-06-12T18:53:15 EDT" name="teardown" finished-at="2023-06-12T18:53:15 EDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.testcases.LoginTests -->
+      <class name="com.tutorialsninja.testcases.RegisterTests">
+        <test-method is-config="true" signature="loadPropertiesFile()[pri:0, instance:com.tutorialsninja.testcases.RegisterTests@37afeb11]" started-at="2023-06-12T18:52:29 EDT" name="loadPropertiesFile" finished-at="2023-06-12T18:52:29 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertiesFile -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.RegisterTests@37afeb11]" started-at="2023-06-12T18:52:30 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:52:34 EDT" duration-ms="4900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="registeringAnAccountWithMandatoryFields(java.util.HashMap)[pri:1, instance:com.tutorialsninja.testcases.RegisterTests@37afeb11]" started-at="2023-06-12T18:52:34 EDT" name="registeringAnAccountWithMandatoryFields" data-provider="Register Data" finished-at="2023-06-12T18:52:37 EDT" duration-ms="2682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First Name=Anoop Joseph, Telephone=1234569870, Last Name=Ezhaparampil, Password=Anoop}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeringAnAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.RegisterTests@37afeb11]" started-at="2023-06-12T18:52:37 EDT" name="teardown" finished-at="2023-06-12T18:52:37 EDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openBrowserWithUrl()[pri:0, instance:com.tutorialsninja.testcases.RegisterTests@37afeb11]" started-at="2023-06-12T18:52:37 EDT" name="openBrowserWithUrl" finished-at="2023-06-12T18:52:41 EDT" duration-ms="3806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserWithUrl -->
+        <test-method signature="registeringAnAccountWithMandatoryFields(java.util.HashMap)[pri:1, instance:com.tutorialsninja.testcases.RegisterTests@37afeb11]" started-at="2023-06-12T18:52:41 EDT" name="registeringAnAccountWithMandatoryFields" data-provider="Register Data" finished-at="2023-06-12T18:52:44 EDT" duration-ms="2761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First Name=Benjamin Joseph, Telephone=3214569870, Last Name=Benj Palace, Password=Benj}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeringAnAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.testcases.RegisterTests@37afeb11]" started-at="2023-06-12T18:52:44 EDT" name="teardown" finished-at="2023-06-12T18:52:44 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.testcases.RegisterTests -->
+    </test> <!-- C:/Users/anoop/IdeaProjects/QAGURU/TutorialsNinjaProject -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" thread-count="5"  >
+    <listeners>
+        <listener class-name="com.tutorialsninja.listeners.MyListeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/anoop/IdeaProjects/QAGURU/TutorialsNinjaProject">
+        <classes>
+            <class name="com.tutorialsninja.testcases.RegisterTests"></class>
+            <class name="com.tutorialsninja.testcases.LoginTests"></class>
+            <class name="com.tutorialsninja.testcases.SearchTests"></class>
+        </classes>
+    </test>
+</suite>
