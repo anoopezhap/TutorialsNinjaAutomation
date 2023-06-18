@@ -27,7 +27,7 @@ public class ExtentReporter {
         Properties configProp = new Properties();
         FileInputStream fis = null;
         try {
-            fis = new FileInputStream("C:\\Users\\anoop\\IdeaProjects\\QAGURU\\TutorialsNinjaProject\\src\\main\\java\\com\\tutorialsninja\\config\\config.properties");
+            fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\tutorialsninja\\config\\config.properties");
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
             throw new RuntimeException(e);

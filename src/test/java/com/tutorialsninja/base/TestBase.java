@@ -26,7 +26,7 @@ public abstract class TestBase {
     public void loadPropertiesFile()
     {
         prop = new Properties();
-        File file = new File("C:\\Users\\anoop\\IdeaProjects\\QAGURU\\TutorialsNinjaProject\\src\\main\\java\\com\\tutorialsninja\\config\\config.properties");
+        File file = new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\tutorialsninja\\config\\config.properties");
         FileInputStream fis = null;
         try {
             fis = new FileInputStream(file);
@@ -80,7 +80,7 @@ public abstract class TestBase {
     {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File screenshot = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        String screenshotPath = "C:/Users/anoop/IdeaProjects/QAGURU/TutorialsNinjaProject/screenshot/" + testName +".png";
+        String screenshotPath = System.getProperty("user.dir")+"/screenshot/" + testName +".png";
         File file = new File(screenshotPath);
 
         try {

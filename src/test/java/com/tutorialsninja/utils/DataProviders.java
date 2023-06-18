@@ -16,7 +16,7 @@ public class DataProviders {
     @DataProvider(name="Register Data")
     public Object[][] validData() throws IOException
     {
-        String filePath = "C:\\Users\\anoop\\IdeaProjects\\QAGURU\\TutorialsNinjaProject\\src\\main\\java\\com\\tutorialsninja\\testData\\registerData.json";
+        String filePath = System.getProperty("user.dir")+"\\src\\main\\java\\com\\tutorialsninja\\testData\\registerData.json";
         File file = new File(filePath);
         ObjectMapper mapper = new ObjectMapper();
         List<HashMap<String,String>> data = mapper.readValue(file, new TypeReference<List<HashMap<String,String>>>() {});
@@ -28,7 +28,7 @@ public class DataProviders {
     @DataProvider(name = "Valid LogIn Data")
     public String[][] data() throws IOException
     {
-        ExcelUtility excel = new ExcelUtility("C:\\Users\\anoop\\IdeaProjects\\QAGURU\\TutorialsNinjaProject\\LoginData.xlsx");
+        ExcelUtility excel = new ExcelUtility(System.getProperty("user.dir")+"\\LoginData.xlsx");
         int rowCount = excel.getRowCount("Sheet1");
         int colCount = excel.getCellCount("Sheet1",0);
         String data[][] = new String[rowCount][colCount];

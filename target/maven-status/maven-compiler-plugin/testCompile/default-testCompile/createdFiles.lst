@@ -1,9 +1,0 @@
-com\tutorialsninja\base\TestBase.class
-com\tutorialsninja\listeners\MyListeners.class
-com\tutorialsninja\utils\DataProviders$1.class
-com\tutorialsninja\utils\DataProviders.class
-com\tutorialsninja\testcases\RegisterTests.class
-com\tutorialsninja\testcases\LoginTests.class
-com\tutorialsninja\testcases\SearchTests.class
-experiments\demo$1.class
-experiments\demo.class

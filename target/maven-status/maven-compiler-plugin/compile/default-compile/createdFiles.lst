@@ -1,8 +1,0 @@
-com\tutorialsninja\utils\ExcelUtility.class
-com\tutorialsninja\base\PageBase.class
-com\tutorialsninja\pages\HomePageBeforeLogin.class
-com\tutorialsninja\pages\LoginPage.class
-com\tutorialsninja\utils\ExtentReporter.class
-com\tutorialsninja\utils\Utilities.class
-com\tutorialsninja\pages\RegisterPage.class
-com\tutorialsninja\pages\SearchPage.class
